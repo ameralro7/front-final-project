@@ -9,129 +9,258 @@
     <link href='https://fonts.googleapis.com/css?family=Jacques Francois Shadow' rel='stylesheet'>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/ionicons.min.css">
+
     <link rel="stylesheet" href="./css/main-arabic.css">
 
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
-    <script src="js/bootstrap/popper.min.js"></script>
-    <script src="js/bootstrap/bootstrap.min.js"></script>
-    <script src="js/plugins/plugins.js"></script>
-    <script src="js/active.js"></script>
+
 </head>
 
 <body>
-
     <header class="header-fixed">
-
         <div class="header-limiter">
-
             <h1><a href="#">Mohammed<span>Resume</span></a></h1>
-
             <nav>
-                <a class="english-lang" href="./index.html">English</a>
+                <a href="./index.html">English</a>
                 <a href="#">الرئيسية</a>
-                <a href="#">التعليم</a>
-                <a href="#">الخبرات</a>
-                <a href="#">الدورات</a>
-                <a href="#">المهارات</a>
-                <a href="#">معلومات الأتصال</a>
+                <a href="#" id="edu1">التعليم</a>
+                <a href="#"id="exp">الخبرة </a>
+                <a href="#"id="cou">الدورات</a>
+                <a href="#"id="ski">المهارات</a>
+                <a href="#"id="con">الإتصال</a>
 
             </nav>
-
         </div>
-
     </header>
-    <div class="home">
-        <div class="profile-img">
-            <img src="./img/moh.png" />
-        </div>
-        <div>
-            <div class="profile-info">
-    
-    
-                <div class="hero-content">
-                    <div class="mohammed">
-                        <h5>مرحبا </h5>
-                        <h2>محمد سعد القحطاني </h2>
-                        <h3>دعم تقنية معلومات &amp; تطوير مواقع</h3>
+    <div>
+        <div class="home">
+            <div class="profile-img">
+                <img src="./img/moh.png" />
+            </div>
+            <div>
+                <div class="profile-info">
+                    <div class="hero-content">
+                        <div class="mohammed">
+                            <h5>مرحبا , أنا</h5>
+                            <h2>محمد سعد </h2>
+                            <h3> <p>أخصائي تقنية معلومات </p> </h3>
+                        </div>
                     </div>
-    
-    
-                </div>
-                <!-- Social Info -->
-                <div class="social-media">
-                    <a href="#" data-toggle="tooltip" data-placement="top" title="Google Plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                    <a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                    <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                 </div>
             </div>
-    
         </div>
-    </div>
-    <div class="all-experiance">
-        <h2>Experiance </h2>
-        <div class="card" style="width: 18rem;">
-                <img src="./img/NCB.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">دعم خدمة عملاء</h5>
-                  <p class="card-text">                    مساعدة العملاء في معالجة المعاملات ، مثل الودائع والسحوبات ومساعدة العملاء في معالجة المعاملات ، مثل الودائع والسحوبات ،
-                        أو المدفوعات ، حل الشكاوى أو تباينات الحساب ، والرد
-                        الأسئلة.
-                        أو المدفوعات ، حل الشكاوى أو تباينات الحساب ، والرد
-                        الأسئلة.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="between">
+
+
+        </div>
+        <div id="Education">
+            <h1>التعليم</h1>
+            <div class="card mb-3" style="max-width: 100%;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="./img/university.png" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Augst,2014</h5>
+                            <p class="card-text">
+                                <h2>درجة البكالرويوس , علوم حاسب ألي </h2>
+                                <h2>جامعة سطام بن عبدالعزيز </h2>
+                            </p>
+                            <a href="https://www.psau.edu.sa/" class="btn btn-primary">read more</a>
+                        </div>
+                    </div>
                 </div>
+            </div>
+
+        </div>
+        <div class="between">
+
+
+        </div>
+        <div class="experiance"id="experiance">
+            <h1> الخبرة</h1>
+            <div class="card-deck">
+                <div class="card">
+                    <img src="./img/mesc.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"> أخصائي تقنية معلومات  </h5>
+                        <p>الدعم الكامل لتكنولوجيا المعلومات أثناء إغلاق المتاجر بما يضمن قطع اتصال معدات تكنولوجيا المعلومات وضمان اكتمال نقل البيانات ، ويكون مسؤولاً عن تحديد بائعي تكنولوجيا المعلومات المناسبين والموردين الخارجيين والشركاء المتعاقدين الآخرين لضمان شراء لوازم ومعدات تكنولوجيا المعلومات المناسبة. </p>
+                        <a href="https://www.mesccables.com/ar/" class="btn btn-primary">المزيد عن الشركة</a>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/almajal.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">دعم فني </h5>
+                        <p class="card-text">دعم المستخدمين النهائيين لبرنامج أوراكل وتقديم الحلول التقنية والبرمجية </p>
+                        <a href="http://almajalholding.com.sa/" class="btn btn-primary">المزيد عن الشركة </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/ncb.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">دعم خدمة عملاء</h5>
+                        <p class="card-text">مساعدة العملاء في معالجة المعاملات ، مثل الودائع أو عمليات السحب أو المدفوعات ، وحل الشكاوى أو تباينات الحساب ، والإجابة على الأسئلة. </p>
+                        <a href="https://www.alahli.com" class="btn btn-primary">المزيد عن الشركة</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="between">
+
+
+        </div>
+        <div class="courses"id="courses">
+            <h1>الدورات</h1>
+            <img src="./img/MCSA.png">
+            <img src="./img/MCSE.png">
+            <img src="./img/front end.png">
+            <img src="./img/azure.jpg">
+            <img src="./img/azure1.png">
+
+
+        </div>
+        <div class="between">
+
+
+        </div>
+        <div class="skills"id="skills">
+            <h1>المهارات</h1>
+            <section class="ftco-section">
+                <div class="container">
+                    <div class="row justify-content-center pb-5">
+                        <div class="col-md-12 heading-section text-center ftco-animate">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 animate-box">
+                            <div class="progress-wrap ftco-animate">
+                                <h3>سيرفر</h3>
+                                <div class="progress">
+                                    <div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
+                                         aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                                        <span>90%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 animate-box">
+                            <div class="progress-wrap ftco-animate">
+                                <h3>جافا سكربت</h3>
+                                <div class="progress">
+                                    <div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
+                                         aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                                        <span>65%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 animate-box">
+                            <div class="progress-wrap ftco-animate">
+                                <h3>HTML5</h3>
+                                <div class="progress">
+                                    <div class="progress-bar color-3" role="progressbar" aria-valuenow="95"
+                                         aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                                        <span>90%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 animate-box">
+                            <div class="progress-wrap ftco-animate">
+                                <h3>CSS3</h3>
+                                <div class="progress">
+                                    <div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
+                                         aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                                        <span>90%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 animate-box">
+                            <div class="progress-wrap ftco-animate">
+                                <h3>اي كلاود</h3>
+                                <div class="progress">
+                                    <div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
+                                         aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                        <span>70%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 animate-box">
+                            <div class="progress-wrap ftco-animate">
+                                <h3>اوفيس</h3>
+                                <div class="progress">
+                                    <div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+                                         aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                                        <span>80%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="between">
+
+
         </div>
 
 
-        <div class="experiance">
-            <img src="./img/NCB.png">
-            <p><b>دعم خدمة عملاء</b></p>
-            <small>
-                <p>
-                    مساعدة العملاء في معالجة المعاملات ، مثل الودائع والسحوبات ومساعدة العملاء في معالجة المعاملات ، مثل الودائع والسحوبات ،
-                    أو المدفوعات ، حل الشكاوى أو تباينات الحساب ، والرد
-                    الأسئلة.
-                    أو المدفوعات ، حل الشكاوى أو تباينات الحساب ، والرد
-                    الأسئلة.
-                </p>
-            </small>
+        <div class="contact1"id="contact1">
+            <h1>الاتصال</h1>
+            <div class="contact-information">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 d-flex flex-wrap align-items-center justify-content-between">
+                            <!-- Single Contact Information -->
+                            <div class="single-contact-info d-flex align-items-center">
+                                <div class="contact-icon">
+                                    <img src="img/placeholder.png" alt="">
+                                </div>
+                                <div class="contact-text">
+                                    <h6>:العنوان</h6>
+                                    <p>المملكة العربية السعودية<br> الرياض</p>
+                                </div>
+                            </div>
+
+                            <!-- Single Contact Information -->
+                            <div class="single-contact-info d-flex align-items-center">
+                                <div class="contact-icon">
+                                    <img src="./img/phone.png" alt="">
+                                </div>
+                                <div class="contact-text">
+                                    <h6>:الجوال</h6>
+                                    <p>+966 55 12 00505</p>
+                                </div>
+                            </div>
+                            <div class="single-contact-info d-flex align-items-center">
+                                <div class="contact-icon">
+                                    <img src="./img/small.png" alt="">
+                                </div>
+                                <div class="contact-text">
+                                    <h6>:الايميل</h6>
+                                    <p>ms.qh505@gmail.com</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="experiance">
-            <img src="./img/almajal.png">
-            <p><b>دعم تكنولوجيا المعلومات</b></p>
-            <small><p> تقديم الدعم والمساندة لمستخدمي قاعدة بيانات أوراكل</p></small>
+        <div class="between">
         </div>
 
-        <div class="experiance">
-            <img src="./img/MESC.jpg">
-            <p><b>أخصائي تقنية معلومات</b></p>
-            <small>
-                <p>مسؤول عن توفير الدعم لمحطات عمل المستخدمين النهائيين ، والاجهزة المكتبية ، وأجهزة الكمبيوتر المحمولة ، وبرامج وأجهزة سطح المكتب ، والشبكات ، وتطبيقات البرامج ، والهواتف ، وآلات النسخ ، والطابعات ، والاتصال بالشبكة وغيرها من التقنيات في كل من المكتب الرئيسي والمتجر والمواقع الخارجية. ، تكوين واختبار ونشر واستكشاف أخطاء أجهزة سطح المكتب والشبكة للمستخدمين النهائيين مثل الطابعات وأجهزة الكمبيوتر المحمولة والشاشات ، إلخ.</p>
-            </small>
-        </div>
-    </div>
-    <h2>My Courses</h2>
-        <div class="courses">
-        <img src="./img/MCSA.png">
-        <img src="./img/MCSE.png">
-        <img src="./img/CCNA.jpg">
-        <img src="./img/CCNP.png">
-        <img src="./img/front end.png">
-        <img src="./img/azure.jpg">
 
-
-    </div>
-    <!-- Contact Info -->
-    <h2 class="contact-1">الإتصال</h2>
-    <div class="contact-info">
-
-        <p class="contact-2">
-            <a href="#"><img src="img/envelope-small.png" alt=""> ms.qh505@gmail.com</a>
-            <a href="#"><img src="img/phone-call-small.png" alt=""> +966 55 1200 505</a>
-        </p>
-    </div>
-
-
+        <script src="./js/jquery-2.2.4.min.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+        <script src="./js/main.js"></script>
 </body>
 </html>

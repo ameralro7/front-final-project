@@ -1,111 +1,29 @@
-﻿*{
-    margin:0;
-    padding:0;
+﻿* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 
 }
-body{
-   background: black;
-    
-}
 
-.profile-img{
-    width: 40%;
-    float: right;
-
-}
-.profile-img img{
-    width: 100%;
-    height: 100%;
-}
-.mohammed {
-    ‎font-style: italic;
-    color: #fff;
-    padding: 10%;
-    font-family: 'Jacques Francois Shadow';
-    font-size: 22px;
+body {
+    background: black;
+    display: flex;
     text-align: left;
-}
-.about {
-    margin-left: 15%;
-    padding: 1em;
-}
-
-.profile-info {
-    width: 50%;
-    height: 50vh;
-    float: left;
-    padding: 0 100px
-}
-.profile-info h1{
-    margin-top: 50px;
-    margin-bottom: 30px;
-}
-.contact-info{
-    height: 30px;
-margin-right: 15px; 
-}
-.social-media img{
-height: 30px;
-margin-right: 15px; 
-}
-.social-media{
-    margin-top: 20px;
-    margin-left: 15px;
-}
-.profile-info h2{
-    margin-top: 50px;
-    margin-bottom: 15px;
-}
-.experiance{
-    display: inline-block;
-    width: 50%;
-    height:50%;
-    padding: 30px 10px;
-    margin: 2%;
-    text-align: left;
-    box-shadow: 0 0 15px 1px rgba(0, 1, 7, 0.18);
-    background:black;
-    color: azure;
-}
-.experiance small{
-        padding-top: 10px;
-        display: block;
-}
-.experiance img{
-    width: 150px;
-    height: 69px;
-}
-.courses img{
-        width: 9%;
-        border-radius:initial;
-        margin-right:auto;
-        margin-left: 5px;
-
-}
-.contact-info {
-    display: inline-block;
-    width: 50%;
-    height: 50%;
-    padding: 10px 5px;
-    margin: 2%;
-    background: #FFF;
-    color:#fff;
-}
-
-.contact-1 {
+    background-image: url('https://hdqwalls.com/wallpapers/binary-code-technology-4k-l2.jpg');
+    /* Set a specific height */
+    height: 100vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: #d5b000 3px solid;
     color: #fff;
-    float: right;
-    padding: 2em;
+    padding-left: 15px;
+    padding-right: 30px;
 }
-
-.contact-2 {
-    float: right;
-    padding: 1em;
-    width: 100%;
-}
-
 .header-fixed {
+    z-index: 1;
     background-color: #292c2f;
     box-shadow: 0 1px 1px #ccc;
     padding: 20px 40px;
@@ -167,12 +85,194 @@ margin-right: 15px;
         opacity: 0.9;
     }
 
+.home {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img {
+    width: 40%;
+    /* float: left; */
+    margin-top: 50px;
+}
+
+    .profile-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+.mohammed {
+    ‎font-style: italic;
+    color: #fff;
+    padding: 10%;
+    font-family: 'Jacques Francois Shadow';
+    font-size: 22px;
+    text-align: left;
+}
+
+.about {
+    margin-left: 15%;
+    padding: 1em;
+}
+
+.profile-info {
+    /* width: 50%; */
+    /* height: 50vh; */
+    float: left;
+    /* padding: 0 100px; */
+}
+
+    .profile-info h1 {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+.experiance {
+    text-align:left;
+    justify-content: space-around;
+     padding: 5em;
+}
+
+.Education {
+    text-align: left;
+    border-radius: 100px;
+    padding: 5em;
+}
+.courses {
+    text-align: left;
+    padding:5em
+}
+    .courses img {
+        justify-content: space-between;
+        width: 320px;
+        height: 320px;
+        box-sizing: border-box;
+        align-items: center;
+        position: relative;
+        padding-left: 12px;
+        padding-right: 25px;
+        padding:5em;
+
+
+}
+    }
+.progress-wrap {
+
+    width: 100%;
+    margin-bottom: 30px;
+}
+.skills {
+    text-align: left;
+    padding: 5em;
+}
+
+    .progress-wrap h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
+
+.progress {
+    height: 10px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #1a1a1a;
+    overflow: visible;
+}
+
+.progress-bar {
+    background: #ffbd39;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #000000;
+    font-weight: 600;
+    position: relative;
+    overflow: visible;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+}
+
+    .progress-bar:after {
+        position: absolute;
+        top: -2px;
+        right: 0;
+        width: 34px;
+        height: 34px;
+        content: '';
+        background: #ffbd39;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -ms-border-radius: 2px;
+        border-radius: 2px;
+        opacity: 0;
+    }
+
+    .progress-bar span {
+        position: absolute;
+        top: -38px;
+        right: 0;
+        font-size: 20px;
+        font-weight: 400;
+        color: #fff;
+    }
+
+/*  Contact Information */
+.contact1 {
+    text-align: left;
+    padding: 5em;
+}
+
+.contact-area {
+    position: relative;
+    z-index: 1;
+    padding-left: 12px;
+    padding-right: 25px;
+
+    @media # {
+        $breakpoint-xs
+    }
+
+{
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 100px;
+}
+
+}
+
+
+.contact-information {
+    padding-top: 50px;
+    background-color: $bg-default;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    }
 
 
 
+.between{
+    padding:20em;
+}
 
 
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  background-color:inherit;
+  background-clip: border-box;
+}
 
-
-
-
+.card img{
+    width:400px;
+    height:200px;
+}

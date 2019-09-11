@@ -8,99 +8,263 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Jacques Francois Shadow' rel='stylesheet'>
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/ionicons.min.css">
+
     <link rel="stylesheet" href="./css/main.css">
 
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
-    <script src="js/bootstrap/popper.min.js"></script>
-    <script src="js/bootstrap/bootstrap.min.js"></script>
-    <script src="js/plugins/plugins.js"></script>
-    <script src="js/active.js"></script>
+
 </head>
 
- <body>
-
-     <header class="header-fixed">
-
-         <div class="header-limiter">
-
-             <h1><a href="#">Mohammed<span>Resume</span></a></h1>
-
-             <nav>
-                 <a href="#">Home</a>
-                 <a href="#" class="selected">Blog</a>
-                 <a href="#">Education</a>
-                 <a href="#">Experiance</a>
-                 <a href="#">cources</a>
-                 <a href="#">skills</a>
-                 <a href="#">Contact</a>
-                 <a href="./index-arabic.html">العربية</a>
-             </nav>
-
-         </div>
-
-     </header>
-     <div class="profile-img">
-         <img src="./img/moh.png" />
-     </div>
-     <div>
-         <div class="profile-info">
-
-
-             <div class="hero-content">
-                 <div class="mohammed">
-                     <h5>Hello I’m</h5>
-                     <h2>Mohammed Saad </h2>
-                     <h3> <p>IT Support &amp; Front-End Developer</p> </h3>
-                 </div>
-         
-             </div>
-
-         </div>
-         <h2>Experiance </h2>
-         <div class="experiance">
-             <img src="./img/NCB.png">
-             <p><b>TELLER AND COSTOMER SERVICES</b></p>
-             <small>
-                 Assisting customers with processing transactions, such as deposits, withdrawals,
-                 or payments, resolving complaints or account discrepancies, and answering
-                 questions.
-             </small>
-         </div>
-         <div class="experiance">
-             <img src="./img/almajal.png">
-             <p><b>IT SUPPORT</b></p>
-             <small>Enter and Book service orders in the global Oracle ERP System.</small>
-         </div>
-
-         <div class="experiance">
-             <img src="./img/MESC.jpg">
-             <p><b> IT SUPPORT EXECUTIVE</b></p>
-             <small>
-                 Responsible to providing support to End-Users workstations, desktop machine, laptops,
-                 desktop software and hardware
-             </small>
-         </div>
-         <h2>My Courses</h2>
-         <div class="courses">
-             <img src="./img/MCSA.png">
-             <img src="./img/MCSE.png">
-             <img src="./img/CCNA.jpg">
-             <img src="./img/CCNP.png">
-             <img src="./img/front end.png">
-             <img src="./img/azure.jpg">
+<body>
+    <header class="header-fixed">
+        <div class="header-limiter">
+            <h1><a href="#">Mohammed<span>Resume</span></a></h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#" id="edu1">Education</a>
+                <a href="#"id="exp">Experiance</a>
+                <a href="#"id="cou">cources</a>
+                <a href="#"id="ski">skills</a>
+                <a href="#"id="con">Contact</a>
+                <a href="./index-arabic.html">العربية</a>
+            </nav>
+        </div>
+    </header>
+    <div>
+        <div class="home">
+            <div>
+                <div class="profile-info">
+                    <div class="hero-content">
+                        <div class="mohammed">
+                            <h5>Hello I’m</h5>
+                            <h1>Mohammed Saad </h1>
+                            <h5> <p>IT Support &amp; Front-End Developer</p> </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                                                        <div class="profile-img">
+                                                            <img src="./img/moh.png" />
+                                                        </div>
+        </div>
+        <div class="between">
 
 
-         </div>
-         <div class="contact-info">
-             <h2 class="contact-1">الإتصال</h2>
-             <p class="contact-2">
-                 <a href="#"><img src="img/envelope-small.png" alt=""> ms.qh505@gmail.com</a>
-                 <a href="#"><img src="img/phone-call-small.png" alt=""> +966 55 1200 505</a>
-             </p>
-         </div>
-     </div>
-     </div>
- 
+        </div>
+        <div class="Education" id="Education">
+            <h1>Education</h1>
+            <div class="card mb-3" style="max-width: 100%;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="./img/university.png" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Augst,2014</h5>
+                            <p class="card-text">
+                                <h2>Bachlors degree , Computer science</h2>
+                                <h2>Sattam Bin Abdulaziz university</h2>
+                            </p>
+                            <a href="https://www.psau.edu.sa/" class="btn btn-primary">read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
- </body>
+        </div>
+        <div class="between">
+
+
+        </div>
+        <div class="experiance" id="experiance">
+            <h1> Experiance</h1>
+            <div class="card-deck">
+                <div class="card">
+                    <img src="./img/mesc.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"> IT SUPPORT EXECUTIVE </h5>
+                        <p>Ensuring full IT support during closure of stores ensuring the disconnection of the IT equipment’s and ensuring the data transmission is complete, and Responsible for identifying suitable IT vendors, external suppliers and other contractual partners to ensure procurement of suitable IT supplies and equipment. </p>
+                        <a href="https://www.mesccables.com/ar/" class="btn btn-primary">read more</a>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/almajal.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">IT Support</h5>
+                        <p class="card-text">Enter and Book service orders in the global Oracle ERP System,and Interface with customers, sales and other departments to address and resolve issues related to service bookings and customer satisfaction.</p>
+                        <a href="http://almajalholding.com.sa/" class="btn btn-primary">read more</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/ncb.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Customer Support</h5>
+                        <p class="card-text">Assisting customers with processing transactions, such as deposits, withdrawals, or payments, resolving complaints or account discrepancies, and answering questions. </p>
+                        <a href="https://new.alahlionline.com/" class="btn btn-primary">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <div class="between">
+        
+
+    </div>
+        <div class="courses" id="courses">
+            <h1>Courses</h1>
+            <img src="./img/MCSA.png">
+            <img src="./img/MCSE.png">
+            <img src="./img/front end.png">
+            <img src="./img/azure.jpg">
+            <img src="./img/azure1.png">
+
+
+        </div>
+        <div class="between">
+
+
+        </div>
+        <div class="skills"id="skills">
+            <h1>Skills</h1>
+            <section class="ftco-section" id="skills-section">
+                <div class="container">
+                    <div class="row justify-content-center pb-5">
+                        <div class="col-md-12 heading-section text-center ftco-animate">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 animate-box">
+                            <div class="progress-wrap ftco-animate">
+                                <h3>Photoshop</h3>
+                                <div class="progress">
+                                    <div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
+                                         aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                                        <span>90%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 animate-box">
+                            <div class="progress-wrap ftco-animate">
+                                <h3>jQuery</h3>
+                                <div class="progress">
+                                    <div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
+                                         aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                                        <span>65%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 animate-box">
+                            <div class="progress-wrap ftco-animate">
+                                <h3>HTML5</h3>
+                                <div class="progress">
+                                    <div class="progress-bar color-3" role="progressbar" aria-valuenow="95"
+                                         aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                                        <span>95%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 animate-box">
+                            <div class="progress-wrap ftco-animate">
+                                <h3>CSS3</h3>
+                                <div class="progress">
+                                    <div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
+                                         aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                                        <span>90%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 animate-box">
+                            <div class="progress-wrap ftco-animate">
+                                <h3>Office365</h3>
+                                <div class="progress">
+                                    <div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
+                                         aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                        <span>70%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 animate-box">
+                            <div class="progress-wrap ftco-animate">
+                                <h3>Server</h3>
+                                <div class="progress">
+                                    <div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+                                         aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                                        <span>80%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="between">
+
+
+        </div>
+
+
+        <div class="contact1"id="contact1">
+            <h1>Contact me</h1>
+            <div class="contact-information">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 d-flex flex-wrap align-items-center justify-content-between">
+                            <!-- Single Contact Information -->
+                            <div class="single-contact-info d-flex align-items-center">
+                                <div class="contact-icon">
+                                    <img src="img/placeholder.png" alt="">
+                                </div>
+                                <div class="contact-text">
+                                    <h6>Address:</h6>
+                                    <p>Saudi Arabia <br> Ryiadh, sa 9507</p>
+                                </div>
+                            </div>
+
+                            <!-- Single Contact Information -->
+                            <div class="single-contact-info d-flex align-items-center">
+                                <div class="contact-icon">
+                                    <img src="./img/phone.png" alt="">
+                                </div>
+                                <div class="contact-text">
+                                    <h6>Phone:</h6>
+                                    <p>+966 55 12 00505</p>
+                                </div>
+                            </div>
+                            <div class="single-contact-info d-flex align-items-center">
+                                <div class="contact-icon">
+                                    <img src="./img/small.png" alt="">
+                                </div>
+                                <div class="contact-text">
+                                    <h6>Email:</h6>
+                                    <p>ms.qh505@gmail.com</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <div class="between">
+    </div>
+
+
+    <!-- <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script> -->
+
+    <script src="./js/jquery-2.2.4.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
 </html>
